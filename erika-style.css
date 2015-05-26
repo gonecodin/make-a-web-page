@@ -1,0 +1,64 @@
+body {
+	padding: 50px 20px;
+	font-family: Helvetica;
+	max-width:1500px;
+	margin: 0 auto;
+	font-size: 1.3em;
+	background-color: #999;
+}
+
+h1 {
+	text-align: center;
+	color: #202020;
+}
+
+p {
+	margin: 20px 0;
+}
+
+ul {
+	list-style-type: square;
+}
+
+li {
+	font-size: 20px;
+	line-height: 44px; /* guidance doc says that this is a good line height for mobile */
+}
+
+.lesson {
+	background-color: #202020;
+	border-radius: 20px;
+	color: red;
+	padding: 20px;
+	margin: 10px auto;
+}
+
+h2 {
+	color: #999;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h3.concept-title { /* I understand that this separation is unnecessary for the page thus far, but I wanted to separate in case we continue this document in later stages. */
+	text-align:left;
+	color: #52ABF2;
+}
+
+.concept {
+	background-color: #404040;
+	padding: 5px 15px;
+	margin: 10px;
+	border-radius: 10px;
+	border-style: solid;
+    border-width: 2px;
+	border-color: #d6008b;
+	color: #fff;
+}
+
+.concept-description {
+	font-weight:lighter;
+	color: #fff;
+}
+
